@@ -17,7 +17,7 @@ npm remove @types/jasmine jasmine-core karma karma-chrome-launcher karma-coverag
 npm i -D jest jest-preset-angular @types/jest
 ```
 #### Creamos un archivo de config para Jest (En este caso jest.config.ts)
-#### Colocamos esto dentro de config.jest.ts
+#### Colocamos esto dentro de jest.config.ts
 ```code
 import "jest-preset-angular/setup-jest";
 ```
