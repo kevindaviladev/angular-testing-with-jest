@@ -7,7 +7,7 @@ import { Geo, User} from '../interfaces/user.interface'
   providedIn: 'root',
 })
 export class UserService {
-  http = inject(HttpClient);
+  private http = inject(HttpClient);
 
   getUsers(): Observable<User[]> {
     return this.http.get<User[]>('https://jsonplaceholder.typicode.com/users');
